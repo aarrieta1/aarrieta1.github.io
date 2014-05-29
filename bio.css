@@ -1,0 +1,26 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+div#container {
+	background-image: url('images/bench-sitting-1.jpg');
+	background-position: 25% 25%, left;
+	background-size: cover;
+	height: 100%;
+	min-width: 100%;
+	width: auto;
+	z-index: -1;
+}
+
+div#bio {
+	position: relative;
+	top: 10%;
+	margin: 5%;
+	padding: 2%;
+	background-color: white;
+	width: 33%;
+	float: right;
+	border-radius: 5px;
+
+}

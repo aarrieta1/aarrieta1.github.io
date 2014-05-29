@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ally Arrieta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+	<!-- Load JavaScript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.floatThead.js"></script>
+	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tubular.1.0.js"></script>
+</head>
+<body>
+	<div id="header" class="fixed">
+		<div id="name">
+			<a href="index.html">ALLY ARRIETA</a>
+		</div>
+		<div id="nav">
+			<a id="bio" href="bio.html">BIO</a>
+			<a href="listen.html">LISTEN</a>
+			<a href="shows.html">SHOWS</a>
+			<a id="blog" href="http://allyarrieta.tumblr.com" target="#">BLOG</a>
+		</div>
+	</div>
+	<div id="logo-social">
+		<div id="logo">
+			<img src="images/logo-white.png" />
+		</div>
+		<div id="social">
+			<i class="fa fa-facebook fa-3x"></i>
+			<i class="fa fa-twitter fa-3x"></i>
+			<i class="fa fa-tumblr fa-3x"></i>
+			<i class="fa fa-soundcloud fa-3x"></i>
+		</div>
+	</div>
+	<div id="wrapper"></div>
+
+	<script>
+		// Tubular
+	    $().ready(function() {
+	    	var options = { videoId: '7G9XTOyZNDI' }
+	        $('#wrapper').tubular(options);
+	    });
+	</script>
+</body>
+</html>
