@@ -9,6 +9,7 @@ div#header {
 	font-size: 1.5em;
 	z-index: 999;
 	min-width: 630px;
+	z-index: 999;
 }
 
 div#header div {
@@ -63,6 +64,7 @@ div#header div#nav a#blog {
 	margin-right: auto;
 	top: 20%;
 	text-align: center;
+	z-index: 1;
 	position: relative;
 }
 
